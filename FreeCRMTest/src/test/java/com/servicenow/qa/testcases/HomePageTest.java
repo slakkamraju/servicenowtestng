@@ -62,6 +62,7 @@ public class HomePageTest extends TestBase {
 //	public void verifyNeeditLinkTest(){
 //		needitCreatePage = homePage.createNeeit();
 //	}
+	
 	@Test(priority=6)
 	public void verifyCreateUserLink(){
 		userCreatePage = homePage.selectUsersCreateLink();
